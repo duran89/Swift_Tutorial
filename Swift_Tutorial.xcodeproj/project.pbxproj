@@ -27,6 +27,7 @@
 		AD525B172BA96701003055DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD525B192BA96701003055DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD525B1F2BA96807003055DA /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AD525B202BA96A11003055DA /* Closure_Plus.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure_Plus.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 				AD525B192BA96701003055DA /* Info.plist */,
 				AD525B112BA966FF003055DA /* Swift_Tutorial.xcdatamodeld */,
 				AD525B1F2BA96807003055DA /* Closure.playground */,
+				AD525B202BA96A11003055DA /* Closure_Plus.playground */,
 			);
 			path = Swift_Tutorial;
 			sourceTree = "<group>";
