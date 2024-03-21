@@ -73,46 +73,55 @@ sayHelloWithName {
 }
 */
 
-/*
+
 // 매개변수로서 데이터를 여러 개 반환하는 클로저
-func sayHelloWithFullName(completion: (String, String) -> Void) {
-    print("sayHelloWithFullName() 호출")
-    sleep(2)
-    completion("안녕", "안녕하세요")
-}
+//func sayHelloWithFullName(completion: (String, String) -> Void) {
+//    print("sayHelloWithFullName() 호출")
+//    sleep(2)
+//    completion("안녕", "안녕하세요")
+//}
+//
+//sayHelloWithFullName { first, second in
+//    print("첫 번째: \(first), 두 번째: \(second)")
+//}
+//
+//// $ 사용한다면
+//sayHelloWithFullName {
+//    print("첫 번째: \($0), 두 번째: \($1)")
+//}
+// 
+//// 만약에 특정 매개변수를 쓰고 싶지 않다면 "_" 사용한다.
+// sayHelloWithFullName { _, second in
+//     print("첫 번째: , 두 번째: \(second)")
+// }
 
-sayHelloWithFullName { first, second in
-    print("첫 번째: \(first), 두 번째: \(second)")
-}
 
-// $ 사용한다면
-sayHelloWithFullName {
-    print("첫 번째: \($0), 두 번째: \($1)")
-}
- 
-// 만약에 특정 매개변수를 쓰고 싶지 않다면 "_" 사용한다.
- sayHelloWithFullName { _, second in
-     print("첫 번째: , 두 번째: \(second)")
- }
-
-*/
-
+//func sayByeWithName(success: () -> (), fail: () -> ()) {
+//    success()
+//    fail()
+//}
+//
+//sayByeWithName {
+//    
+//} fail: {
+//    
+//}
 
 
 // 옵셔날
-func sayHelloWithOptional(completion: (() -> Void)? = nil) {
-    print("sayHelloWithOptional() 호출")
-    sleep(2)
-    // completion 클로저 실행
-    completion?()
-}
-  
-sayHelloWithOptional()
-
-// 값을 반환하고 싶다면? 완료 후에 결과를 내놓고 싶을 때는 아래와 같이 쓴다.
-sayHelloWithOptional(completion: {
-    print("sayHelloWithOptional() 호출: 결과값 반환")
-})
+//func sayHelloWithOptional(completion: (() -> Void)? = nil) {
+//    print("sayHelloWithOptional() 호출")
+//    sleep(2)
+//    // completion 클로저 실행
+//    completion?()
+//}
+//  
+//sayHelloWithOptional()
+//
+//// 값을 반환하고 싶다면? 완료 후에 결과를 내놓고 싶을 때는 아래와 같이 쓴다.
+//sayHelloWithOptional(completion: {
+//    print("sayHelloWithOptional() 호출: 결과값 반환")
+//})
 
 
 // () -> Void
@@ -165,3 +174,49 @@ print(transformedNumbersWithout)
 //print(tom)  // 실행 결과: 안녕하세요 tom
 
 */
+
+//var fruits: [String] = ["Apple", "Banana", "Kiwi", "Melon"]
+//
+//func updateFruits(closure: () -> String) {
+//    print("삭제 아이템: \(closure())")
+//}
+//
+//print(fruits)
+//updateFruits(closure: fruits.removeFirst())
+//print(fruits)
+
+
+//let closure = { num in
+//    fruits.remove(at: num)
+//}
+//
+//print(fruits) // ["Apple", "Banana", "Kiwi", "Melon"]
+//
+//closure(0) // "Apple"
+//
+//print(fruits)  // ["Banana", "Kiwi", "Melon"]
+
+
+
+//let fruitsCheck = { fruits.removeFirst()}
+//print(fruits.count)   // 4
+//
+//print("삭제 아이템: \(fruitsCheck())")  // 삭제 아이템: Apple
+//print(type(of: fruitsCheck))   // () -> String
+//print(fruits.count)   // 3
+
+//var fruits: [String] = ["Apple", "Banana", "Kiwi", "Melon"]
+//
+//print(fruits.count)    // 4
+//
+//func runFunction(fruitsCheck: @autoclosure() -> String) {
+//    print("삭제 아이템: \(fruitsCheck())")
+//}
+//
+//runFunction(fruitsCheck: fruits.removeFirst())   // 삭제 아이템: Apple
+//print(fruits.count)   // 3
+//
+//
+//// String 타입의 인수를 받는 것도 가능
+//runFunction(fruitsCheck: "사과")  // 삭제 아이템: 사과
+

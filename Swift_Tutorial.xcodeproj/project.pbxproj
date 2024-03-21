@@ -28,6 +28,11 @@
 		AD525B192BA96701003055DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD525B1F2BA96807003055DA /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AD525B202BA96A11003055DA /* Closure_Plus.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure_Plus.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AD525B212BAB37E6003055DA /* VarAndLet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VarAndLet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AD525B222BAB3B0C003055DA /* DataType.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DataType.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AD525B232BABF364003055DA /* Collection.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Collection.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AD525B242BAC011F003055DA /* Function.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AD525B252BACEE4D003055DA /* Function_plus.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Function_plus.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,11 @@
 				AD525B112BA966FF003055DA /* Swift_Tutorial.xcdatamodeld */,
 				AD525B1F2BA96807003055DA /* Closure.playground */,
 				AD525B202BA96A11003055DA /* Closure_Plus.playground */,
+				AD525B212BAB37E6003055DA /* VarAndLet.playground */,
+				AD525B222BAB3B0C003055DA /* DataType.playground */,
+				AD525B232BABF364003055DA /* Collection.playground */,
+				AD525B242BAC011F003055DA /* Function.playground */,
+				AD525B252BACEE4D003055DA /* Function_plus.playground */,
 			);
 			path = Swift_Tutorial;
 			sourceTree = "<group>";
