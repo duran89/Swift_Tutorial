@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD07181F2BB2E08800F8095B /* if-else.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "if-else.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AD525B052BA966FF003055DA /* Swift_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD525B082BA966FF003055DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD525B0A2BA966FF003055DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 				AD525B232BABF364003055DA /* Collection.playground */,
 				AD525B242BAC011F003055DA /* Function.playground */,
 				AD525B252BACEE4D003055DA /* Function_plus.playground */,
+				AD07181F2BB2E08800F8095B /* if-else.playground */,
 			);
 			path = Swift_Tutorial;
 			sourceTree = "<group>";
